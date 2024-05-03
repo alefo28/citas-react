@@ -11,8 +11,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "chart.js": "^4.4.2",
+    "html2canvas": "^1.4.1",
+    "moment": "^2.30.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

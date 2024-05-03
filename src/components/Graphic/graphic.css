@@ -1,0 +1,17 @@
+.componente-base {
+  position: relative;
+  width: 300px; /* Ancho y altura de ejemplo */
+  height: 200px;
+  background-color: lightblue; /* Color de fondo de ejemplo */
+}
+
+.texto-superpuesto {
+  position: absolute;
+  top: 50%; /* Ajusta el texto al centro verticalmente */
+  left: 50%; /* Ajusta el texto al centro horizontalmente */
+  transform: translate(-50%, -50%);
+  font-size: 18px; /* Tamaño de fuente de ejemplo */
+  color: white; /* Color del texto */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente */
+  padding: 10px; /* Espacio interior alrededor del texto */
+}
